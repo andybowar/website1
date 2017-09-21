@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<!-- This file is called index.html. Its purpose is to present information 
+through a web browser in an aesthetically appealing way. My name is 
+Andy Bowar. My email address is bowara@csp.edu. My student ID is 
+L00417727. My birthday is 12/30/1989. This course is called Modern
+Web Design and this assignment is called "Discover HTML". The date
+is 10/24/2016. -->
+<!-- Changeset 10/25/16 - Added table showing photos and artist statements -->
+<!-- Changeset 10/26/16 - After sending HTML through validation, found the align 
+attributes are obsolete. Removed them. Also, using <ul> attributes as children of <ul> 
+attributes can cause display issues in some browsers. Replaced them with margin-left
+attributes for sub-points. Added comments for these points. -->
+<!-- Changeset 11/2/16 - Removed inline CSS from some elements and added it to style.css -->
+<!-- Changeset 11/8/16 - Moved nav bar to header, added table of contents as sidebar -->
+<head>
+	<meta charset="utf-8"/>
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Andy Bowar Resume</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet"> <!-- Link to font style -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrapOverride.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+
+<!-- ACCESSIBILITY FOR SCREEN READERS --> 
+	<div class="sr-only">
+		<ul>
+			<li><a href="#goal">Goal</a></li>
+			<li><a href="#tech">Technical Summary</a></li>
+			<li><a href="#exp">Experience</a></li>
+			<li><a href="#gradient">Gradient Financial Group</a></li>
+			<li><a href="#nwaf">NWAF</a></li>
+			<li><a href="#volunteer">Volunteer Work</a></li>
+		</ul>
+	</div>
+<br>
+
+<!-- Title is below. ROW 1 -->
+	<div class="row">
+		<header>
+		<nav class="navbar navbar-inverse" role="navigation">	
+			<div class="navbar-header" id="headertext">
+				<a class="navbar-brand" href="index.html">Andy Bowar Photography</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+            </button>
+			</div>
+			<!--	Navigation -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="photographypage.html">Photography</a></li>
+				<li><a href="disability.html">Disability</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+		</header>
+	</div>
+<!-- END OF ROW 1 -->
+	<hr />
+	
+	<!-- ROW 2 -->
+	<div class="row">
+	
+	<img id="portrait" class="pull-right col-lg-3 col-md- col-sm-3" style="width: 200px;" src="graphic/andyBowar.jpg" alt="Portrait of Andy Bowar"/>
+	
+	<!-- Goal -->
+	<div class="col-lg-9 col-md-9 col-sm-8"><a name="goal"><h3>Goal:</h3></a>
+	<p>
+	<i>With a deep passion for troubleshooting and solving technical issues, <br /> 
+	I have thrived on producing effective solutions for issues involving both <br />
+	hardware and software for 6 years. Demonstrating initiative and solid <br /> 
+	work ethic in every project I take on, I never leave a job unfinished.</i>
+	</p></div>
+	
+	
+	<!-- Technical summary below -->
+	<div class="col-lg-9 col-md-9 col-sm-8"><a name="tech"><h3>Technical Summary:</h3></a>
+	<ul>
+		<li>Software installation and training</li>
+		<li>Software debugging</li>
+		<li>Test plan development</li>
+		<li>Basic Server 2008/2012 experience</li>
+		<li>Help Desk support</li>
+	</ul></div>
+	
+	</div>
+	<!-- END OF ROW 2 -->
+	
+<div class="container-fluid col-lg-12 col-md-12 col-sm-12">	
+	
+	<!-- ROW 3 -->
+	<!-- Experience. -->
+	<div class="row">
+	<a name="exp"><h3>Experience:</h3></a>
+	<p style="text-align:left; width:50%; display: inline-block;"><strong><a href="http://www.homespotter.com" name="homespotter">HomeSpotter, LLC</a></strong><br />
+	
+	<u>Quality Assurance Engineer</u><br />
+	<ul>
+		<li>Testing and Bug Reporting</li>
+		<!-- Items below are sub-points. -->
+		<li style="margin-left: 32px;">Developing testing plans for app development cycles</li>
+		<li style="margin-left: 32px;">Bug reporting in Jira</li>
+		<li style="margin-left: 32px;">Continually update documentation on new features and testing tools</li>
+	</ul>
+	
+	<p style="text-align:left; width:50%; display: inline-block;"><strong><a href="http://www.gradientfg.com" name="gradient">Gradient Financial Group</a></strong><br />
+	
+	<u>Quality Assurance Coordinator</u><br />
+	<ul>
+		<li>Testing and Bug Reporting</li>
+		<!-- Items below are sub-points. -->
+		<li style="margin-left: 32px;">Developing testing plans for software publish cycles</li>
+		<li style="margin-left: 32px;">Delegating parts of testing plan to QA team</li>
+		<li style="margin-left: 32px;">Developing bug report system using Microsoft Team Foundation Server</li>
+		<li>Test Automation</li>
+		<!-- Item below is a sub-point. -->
+		<li style="margin-left: 32px;">Designing test automation system using Telerik Test Studio</li>
+	</ul>
+	
+	<p style="text-align:left; width:50%; display: inline-block;"><strong><a href="http://www.nwaf.org" name="nwaf">Northwest Area Foundation</a></strong><br />
+	<u>IT Technician</u><br />
+	<ul>
+		<li>System Maintenance</li>
+		<!-- Items below are sub-points. -->
+		<li style="margin-left: 32px;">Racking new equipment and retiring old equipment (firewalls, tape backup servers, mail servers, etc)</li>
+		<li style="margin-left: 32px;">Troubleshooting issues Server 2008/2012</li>
+		<li style="margin-left: 32px;">Researching and implementing NAS/SAN backup solutions</li>
+		<li>Help Desk Support</li>
+		<!-- Items below are sub-points. -->
+		<li style="margin-left: 32px;">Testing updates of software (Java, VPN, Office plugins) and deploying them</li>
+		<li style="margin-left: 32px;">Managing iOS device updates and monitoring company compliancy</li>
+		<li style="margin-left: 32px;">Troubleshooting issues with Microsoft Office</li>
+	</ul></p>
+	</div>
+	<!-- END OF ROW 3 -->
+	
+	<!-- ROW 5 -->
+	<div class="row">
+	<a name="education"><h3>Education</h3></a>
+	<u>Concordia University Saint Paul</u><br>
+	<p>Currently, I am working towards a B.S. in Computer Science. This website was a project completed
+	in a basic web design course. I expect to be finished with the courses directly related to my major by Fall 2019.</p>
+	<br>
+	<p>In Fall 2018, I am taking Server Side Development and Advanced Web Design.</p>
+	<br>
+	<p>I graduated from Minneapolis Community and Technical College in December 2011 
+	with an A.A.S. in Computer Support and Network Administration.</p> 
+	
+	
+	
+	</div>
+	<!-- END OF ROW 5 -->
+	
+	
+	
+	</div>
+	
+</div>
+
+<!-- (1) jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/
+1.12.0/jquery.min.js"></script>
+<!-- (2) Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/
+bootstrap.min.js"></script>
+<!-- (4) Bring in local JavaScript functions -->
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>

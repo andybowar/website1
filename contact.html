@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<!-- Read me page. Works as a template for every other page -->
+<head>
+	<meta charset="utf-8"/>
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Me</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet"> <!-- Link to font style -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrapOverride.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+<br>
+<!-- Title is below. ROW 1 -->
+	<div class="row">
+		<header>
+		<nav class="navbar navbar-inverse" role="navigation">	
+			<div class="navbar-header" id="headertext">
+				<a class="navbar-brand" href="index.html">Andy Bowar Photography</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+            </button>
+			</div>
+			<!--	Navigation -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="photographypage.html">Photography</a>
+				<li><a href="disability.html">Disability</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+		</header>
+	</div>
+<!-- END OF ROW 1 -->
+
+	
+	<!-- ROW 2 -->
+	<div class="row">
+		<div class="col-lg-6 col-sm-12">
+			<a name="sitepurpose"><h3>Purpose of this site:</h3></a>
+			<p>
+			The purpose of this site is to showcase basic HTML and CSS skills using a resume as an example. 
+			</p>
+			
+			<a name="siteurl">
+				<h3>URL for the site:</h3>
+			</a>
+			<p>
+				<a href="http://abowar.byethost9.com">http://abowar.byethost9.com</a>
+			</p>
+		<a name="sitecolors"><h3>Colors:</h3></a>
+			<table class="table table-bordered">
+				<tr>
+					<th>White</th>
+					<th>Warm Yellow: #EAC67A</th>
+					<th>Rusty Red: #984B43</th>
+					<th>Blackboard Gray: #233237</th>
+				</tr>
+				<tr>
+					<td style="background: white; height: 50px;">
+					<td style="background: #EAC67A; height: 50px;">
+					<td style="background: #984B43; height: 50px;">
+					<td style="background: #233237; height: 50px;">
+			</table>
+			
+		</div>
+		<div class="col-lg-6 col-sm-12">
+			<div id="form" style="padding-bottom: 2%;">
+				<form id="contact">
+				<a name="contactform"><h3>Contact Me:</h3></a>
+					<div class="form-group">
+						<h4>Name:</h4>
+						<input class="form-control" style="color: black;" type="text" name="txtfirstname" placeholder="First Name" required>
+						<br>			
+						<input class="form-control" style="color: black;" type="text" name="txtlastname" placeholder="Last Name" required>
+					</div>
+					
+					<div class="form-group">
+						<h4>Email:</h4>
+						<input class="form-control" style="color: black;" type="text" name="txtemailaddress" maxlength="20" placeholder="Enter a valid email address" required>
+					</div>
+					
+					<div class="form-group">
+						<h4>Is this your primary email address?</h4>
+						<label style="font-weight: normal;">
+							<input type="radio" name="optprimaryemail" value="yes"> Yes
+						</label><br>
+						<label style="font-weight: normal;">
+							<input type="radio" name="optprimaryemail" value="no"> No
+						</label>
+					</div>
+						
+						<div class="form-check">
+							<h4>Choose your preferred method(s) of communication:</h4>
+							<label style="font-weight: normal;">
+								<input type="checkbox" class="form-check-input" name="communication"> Snail Mail 
+							</label><br />
+							<label style="font-weight: normal;">
+								<input type="checkbox" class="form-check-input" name="communication"> Email 
+							</label><br />
+							<label style="font-weight: normal;">
+								<input type="checkbox" class="form-check-input" name="communication"> Telegram 
+							</label><br />
+							<label style="font-weight: normal;">
+								<input type="checkbox" class="form-check-input" name="communication"> Carrier Pigeon 
+							</label><br />
+						</div>
+					
+					<div class="form-group">
+						<h4>Message:</h4>
+						<textarea rows="5" cols="40" style="color: black;" class="form-control" name="message" placeholder="Type your message here."></textarea>
+					</div>
+					
+					<p>Disclaimer: the button below does nothing.</p>
+					
+					<input type="submit" class="btn btn-primary">
+					
+
+				</form>
+			</div>
+		</div>
+		<div class="col-lg-6">
+		</div>
+	</div>
+	<!-- END OF ROW 2 -->
+	
+</div>
+<!-- (1) jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/
+1.12.0/jquery.min.js"></script>
+<!-- (2) Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/
+bootstrap.min.js"></script>
+<!-- (4) Bring in local JavaScript functions -->
+<script src="js/bootstrap.js"></script>
+	
+</body>
