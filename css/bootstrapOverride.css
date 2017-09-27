@@ -131,7 +131,7 @@ h3,
 .navbar-inverse {		
   background-color: #984B43; /* rusty red */		
   border: 0;		  
-  		
+  border-radius: 0px;
 }		
 .navbar-inverse .navbar-brand {	
   color: #EAC67A;		  
