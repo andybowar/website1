@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-<!-- Read me page. Works as a template for every other page -->
 <head>
 	<meta charset="utf-8"/>
 	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Week 4 Project</title>
+	<title>Posts Code</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet"> <!-- Link to font style -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrapOverride.css" rel="stylesheet" type="text/css">

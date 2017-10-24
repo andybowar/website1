@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-<!-- Read me page. Works as a template for every other page -->
 <head>
 	<meta charset="utf-8"/>
 	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Week 4 Project</title>
+	<title>Create a Post</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet"> <!-- Link to font style -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrapOverride.css" rel="stylesheet" type="text/css">
@@ -13,10 +12,10 @@
 	<?php
 	
 	//Set up connection constants			
-	define("SERVER_NAME","localhost");
-	define("DBF_USER_NAME", "root");
-	define("DBF_PASSWORD", "mysql");
-	define("DATABASE_NAME", "blogPost");
+	define("SERVER_NAME","sql302.byethost9.com");
+	define("DBF_USER_NAME", "b9_20725008");
+	define("DBF_PASSWORD", "Thek1llers3123");
+	define("DATABASE_NAME", "b9_20725008_blogPost");
 		
 	// Create connection object
 	$conn = new mysqli(SERVER_NAME, DBF_USER_NAME, DBF_PASSWORD);
