@@ -28,7 +28,7 @@
 		<header>
 		<nav class="navbar navbar-inverse" role="navigation">	
 			<div class="navbar-header" id="headertext">
-				<a class="navbar-brand" href="index.php">User View</a>
+				<a class="navbar-brand" href="index.html">Andy Bowar Photography</a>
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
